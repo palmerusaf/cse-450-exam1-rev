@@ -83,13 +83,27 @@ markmap:
         - idk good luck
     - Short Paths, MST, Clustin
       - Shortest Path: Dijkstra's Algorithm
+        - path cost - sum(edge in path)
+        - proof by induction
+        - can't do negative weights
+        - uses pq for unexplored nodes
       - Minimum Spanning Trees
-      - Proof of Cut
-      - Proof of Cycle Properties
-      - Prim's Algorithm
-      - Kruskal's Algorithm
-      - Prim's Algorithm: Implementation
+        - connect all the dots as cheaply as possible
+      - Cut - only one endpoint
+      - Cycle - makes a circle
+      - Prim's
+        - makes mst
+        - start at some root
+        - uses pq
+        - grow out by choosing cheapest edge
+      - Kruskal's
+        - makes mst
+        - consider edges in asc of cost
+        - insert unless cycle
       - Clustering
+        - used for cholera outbreak
+        - global clustering is np, local is p
+        - forms Kruskal's algo
   - Amorted ysis/Splayed Out
     - Amorted ysis
     - Splayed Out
