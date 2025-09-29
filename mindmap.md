@@ -123,7 +123,7 @@ markmap:
       - Splay
         - zig 
           - when parent root 
-          - ![](./zig.svg) 
+          - ![](./zig.gif) 
         - zig-zig 
           - when parent !root  && target && parent on one side 
           - ![](./Zigzig.gif) 
