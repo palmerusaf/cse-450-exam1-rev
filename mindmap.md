@@ -76,10 +76,20 @@ markmap:
       - proof
         - oof - lots of steps/cases
         - by induction - that's the domino proof if you forgot
-        - you build double caches - at start they're the same?
-        - at some point i think you take a different action from FF and prove non-FF is trash
+        - you build double caches - at start they're the same
+        - at some point i think you take a different action from FF and prove non-FF is trash?
+        - the proof never explicitly says that it just talks about reducibility
+        - maybe reducibility means your algo is trash
         - idk good luck
     - Short Paths, MST, Clustin
+      - Shortest Path: Dijkstra's Algorithm
+      - Minimum Spanning Trees
+      - Proof of Cut
+      - Proof of Cycle Properties
+      - Prim's Algorithm
+      - Kruskal's Algorithm
+      - Prim's Algorithm: Implementation
+      - Clustering
   - Amorted ysis/Splayed Out
     - Amorted ysis
     - Splayed Out
