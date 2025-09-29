@@ -106,5 +106,27 @@ markmap:
         - forms Kruskal's algo
   - Amorted ysis/Splayed Out
     - Amorted ysis
+      - Averaging the runtime
+      - Aggregate Method - worst runtime for seq(t(n)) over that seq(n) - t(n)/n
+      - Accounting Method
+        - Like insurance
+        - charge more than it cost, save some for expensive stuff
+        - sum of accounting method cost is never greater than sum of actual cost
+      - Potential Method
+        - $c_i$ = actual cost of operation $i$
+        - $\Phi_i$ = potential after operation $i$
+        - $\Phi_{i-1}$ = potential before operation $i$
+        - $\hat{c}_i = c_i + \Phi_i - \Phi_{i-1}$
+        - sum of potential method cost is never greater than sum of actual cost
     - Splayed Out
+      - Splay
+        - zig 
+          - when parent root 
+          - ![](./zig.svg) 
+        - zig-zig 
+          - when parent !root  && target && parent on one side 
+          - ![](./Zigzig.gif) 
+        - zig-zag
+          - when parent !root && target one side && parent other side
+          - ![](./Zigzag.gif)  
     - Amorted Splay
