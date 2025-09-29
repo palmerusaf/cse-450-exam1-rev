@@ -20,8 +20,7 @@ markmap:
       - How Stab?
         - First stabbers stab with prefs
         - Back-stabbers drop worse offers, keep better
-        - Process repeats until all matched.
-        - Result: stable matching, proposer-optimal, receiver-pessimal.
+        - Repeat til all matched
     - Greed
       - Interval Sched
         - n log n for prep sorting
