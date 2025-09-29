@@ -119,6 +119,7 @@ markmap:
         - $\hat{c}_i = c_i + \Phi_i - \Phi_{i-1}$
         - sum of potential method cost is never greater than sum of actual cost
     - Splayed Out
+      - splay after every op
       - Splay
         - zig 
           - when parent root 
@@ -130,3 +131,5 @@ markmap:
           - when parent !root && target one side && parent other side
           - ![](./Zigzag.gif)  
     - Amorted Splay
+      - log n basically
+      - its the sum of the rank of the node which is floor(log v)
