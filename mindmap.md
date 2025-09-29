@@ -43,6 +43,18 @@ markmap:
         - also this^^^ is the proof somehow
   - More Greed
     - Schedin to Min Late
+      - Goal: min the max lateness
+      - cool cool, wtf does that mean?
+        - Lateness - basically the finish time minus the due time
+        - also if this number is negative set it to zero
+        - we're not trying to min total lateness just the max per process so we avoid a mecha-karen situation
+        - also trying to do the other thing, min total lateness, is np-hard i think, aka don't try to do that unless you're Turing
+      - how
+        - sort by deadline, guess what that means? that's right n log n
+        - Sched jobs end to end
+      - proof
+        - bet i could swap some of these
+        - oh... guess not
     - Opt Off Cachin
     - Short Paths, MST, Clustin
   - Amorted ysis/Splayed Out
