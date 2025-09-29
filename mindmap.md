@@ -5,6 +5,7 @@ markmap:
   maxWidth: 300
   pan: false
   duration: 0
+  spacingHorizontal: 8
 ---
 
 - Exam 1 Review
@@ -56,6 +57,28 @@ markmap:
         - bet i could swap some of these
         - oh... guess not
     - Opt Off Cachin
+      - Goal: min cache miss
+      - Offline like the internet?
+        - No this means you know the whole sequence ahead of time
+      - Farthest-In-Future^TM^ is best algo
+        - bellady
+        - 1960s
+        - maybe you don't need to know this idk
+      - How it works
+        - when you have a cache miss kick someone out of the cache
+        - put the missed item in the cache
+      - cool, um who do i kick?
+        - we're offline, so you cheat, look at the seq find the Farthest-In-Future^TM^
+      - unreduced vs reduced
+        - unreduced - doing dumb stuff aka extra work for no reason
+        - reduced - see how it works^^^
+        - you can prove unreduced can convert to reduced because you can always just stop doing dumb stuff i guess
+      - proof
+        - oof - lots of steps/cases
+        - by induction - that's the domino proof if you forgot
+        - you build double caches - at start they're the same?
+        - at some point i think you take a different action from FF and prove non-FF is trash
+        - idk good luck
     - Short Paths, MST, Clustin
   - Amorted ysis/Splayed Out
     - Amorted ysis
