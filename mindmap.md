@@ -26,7 +26,6 @@ markmap:
         - n log n for prep sorting
         - myopic (read dumb)
         - it fits its ships, worry about tomorrow tomorrow
-        - ![int sched](~/ASU-Current-Classes/CSE-450-DSA-2/exam-1-rev/int-sched.png)
         - proof
           - find a smarter way
           - find out its actually trash
